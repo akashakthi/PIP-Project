@@ -4,13 +4,6 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - helmet
-  - eye pro
-  - ear pro
-  - pro overalls
-  - high vis cloth
-  - pro gloves
-  - safety foot
   - answer
   layers:
   - Default
