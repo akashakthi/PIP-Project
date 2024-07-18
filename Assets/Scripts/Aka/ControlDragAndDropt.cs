@@ -1,11 +1,17 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ControlDragAndDrop : MonoBehaviour
 {
     public GameObject[] item;
     public GameObject[] itemDrop;
+    public GameObject Questions;
+
+    public int score;
+    public int maxScore;
 
     public int jarak; // untuk menentukan jarak antar item dan item drop
 
@@ -22,6 +28,7 @@ public class ControlDragAndDrop : MonoBehaviour
         {
             itemPos[i] = item[i].transform.localPosition;
         }
+        
     }
 
     // Update is called once per frame
@@ -120,10 +127,18 @@ public class ControlDragAndDrop : MonoBehaviour
         if (distance < jarak)
         {
             item[_number].transform.localPosition = itemDrop[_number].transform.localPosition;
+            score += 1;
+            print("Score = " + score);
         }
         else
         {
             item[_number].transform.localPosition = itemPos[_number];
         }
+
+        if (maxScore <= score)
+        {
+            Questions.SetActive(true);
+        }
     }
+
 }
