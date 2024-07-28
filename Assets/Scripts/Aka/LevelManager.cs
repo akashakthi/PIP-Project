@@ -12,11 +12,11 @@ public class LevelManager : MonoBehaviour
     }
     public void levelThree()
     {
-        SceneManager.LoadScene("levelThree");
+        SceneManager.LoadScene("LevelThree");
     }
     public void levelFour()
     {
-        SceneManager.LoadScene("levelFour");
+        SceneManager.LoadScene("LevelFour");
     }
     public void levelFive()
     {
