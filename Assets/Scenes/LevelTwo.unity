@@ -182,7 +182,7 @@ MonoBehaviour:
   - {fileID: 1872679007}
   - {fileID: 805553467}
   - {fileID: 15294479}
-  Questions: {fileID: 0}
+  Questions: {fileID: 1489738893}
   score: 0
   maxScore: 0
   jarak: 200
@@ -340,7 +340,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 2
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -701,7 +701,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 2
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -1204,6 +1204,7 @@ GameObject:
   - component: {fileID: 237219506}
   - component: {fileID: 237219508}
   - component: {fileID: 237219507}
+  - component: {fileID: 237219509}
   m_Layer: 5
   m_Name: Timer
   m_TagString: Untagged
@@ -1327,6 +1328,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 237219505}
   m_CullTransparentMesh: 1
+--- !u!114 &237219509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 237219505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 425da5b10b2e0094cafbde5fe55a7abf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 237219507}
+  remainingTime: 120
 --- !u!1 &238078223
 GameObject:
   m_ObjectHideFlags: 0
@@ -1894,6 +1909,7 @@ GameObject:
   - component: {fileID: 338258790}
   - component: {fileID: 338258792}
   - component: {fileID: 338258791}
+  - component: {fileID: 338258793}
   m_Layer: 5
   m_Name: Timer
   m_TagString: Untagged
@@ -2017,6 +2033,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 338258789}
   m_CullTransparentMesh: 1
+--- !u!114 &338258793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338258789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 425da5b10b2e0094cafbde5fe55a7abf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 338258791}
+  remainingTime: 120
 --- !u!1 &356066024
 GameObject:
   m_ObjectHideFlags: 0
@@ -2366,6 +2396,7 @@ GameObject:
   - component: {fileID: 466520484}
   - component: {fileID: 466520486}
   - component: {fileID: 466520485}
+  - component: {fileID: 466520487}
   m_Layer: 5
   m_Name: Timer
   m_TagString: Untagged
@@ -2489,6 +2520,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 466520483}
   m_CullTransparentMesh: 1
+--- !u!114 &466520487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 466520483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 425da5b10b2e0094cafbde5fe55a7abf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 466520485}
+  remainingTime: 120
 --- !u!1 &473036941
 GameObject:
   m_ObjectHideFlags: 0
@@ -2731,6 +2776,7 @@ GameObject:
   - component: {fileID: 550346500}
   - component: {fileID: 550346502}
   - component: {fileID: 550346501}
+  - component: {fileID: 550346503}
   m_Layer: 5
   m_Name: Timer
   m_TagString: Untagged
@@ -2854,6 +2900,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 550346499}
   m_CullTransparentMesh: 1
+--- !u!114 &550346503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550346499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 425da5b10b2e0094cafbde5fe55a7abf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 550346501}
+  remainingTime: 120
 --- !u!1 &550585570
 GameObject:
   m_ObjectHideFlags: 0
@@ -3313,6 +3373,7 @@ GameObject:
   - component: {fileID: 584823938}
   - component: {fileID: 584823940}
   - component: {fileID: 584823939}
+  - component: {fileID: 584823941}
   m_Layer: 5
   m_Name: Timer
   m_TagString: Untagged
@@ -3436,6 +3497,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 584823937}
   m_CullTransparentMesh: 1
+--- !u!114 &584823941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584823937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 425da5b10b2e0094cafbde5fe55a7abf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 584823939}
+  remainingTime: 120
 --- !u!1 &614892722
 GameObject:
   m_ObjectHideFlags: 0
@@ -4166,7 +4241,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 2
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -4208,6 +4283,7 @@ GameObject:
   - component: {fileID: 746823079}
   - component: {fileID: 746823078}
   - component: {fileID: 746823080}
+  - component: {fileID: 746823081}
   m_Layer: 5
   m_Name: Timer
   m_TagString: Untagged
@@ -4332,6 +4408,20 @@ CanvasRenderer:
   m_GameObject: {fileID: 746823076}
   m_CullTransparentMesh: 1
 --- !u!114 &746823080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746823076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 425da5b10b2e0094cafbde5fe55a7abf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 746823078}
+  remainingTime: 120
+--- !u!114 &746823081
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7716,7 +7806,7 @@ MonoBehaviour:
   - {fileID: 1598858333}
   Questions: {fileID: 319546902}
   score: 0
-  maxScore: 0
+  maxScore: 10
   jarak: 200
   itemPos:
   - {x: 0, y: 0}
@@ -8669,7 +8759,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 2
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -8889,7 +8979,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 2
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96

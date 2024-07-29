@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 48752347}
   - component: {fileID: 48752349}
   - component: {fileID: 48752348}
+  - component: {fileID: 48752350}
   m_Layer: 5
   m_Name: Timer
   m_TagString: Untagged
@@ -256,6 +257,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 48752346}
   m_CullTransparentMesh: 1
+--- !u!114 &48752350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48752346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 425da5b10b2e0094cafbde5fe55a7abf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 48752348}
+  remainingTime: 120
 --- !u!1 &52586301
 GameObject:
   m_ObjectHideFlags: 0
@@ -267,6 +282,7 @@ GameObject:
   - component: {fileID: 52586302}
   - component: {fileID: 52586304}
   - component: {fileID: 52586303}
+  - component: {fileID: 52586305}
   m_Layer: 5
   m_Name: Timer
   m_TagString: Untagged
@@ -390,6 +406,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 52586301}
   m_CullTransparentMesh: 1
+--- !u!114 &52586305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52586301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 425da5b10b2e0094cafbde5fe55a7abf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 52586303}
+  remainingTime: 120
 --- !u!1 &94760259
 GameObject:
   m_ObjectHideFlags: 0
@@ -563,6 +593,7 @@ GameObject:
   - component: {fileID: 104062901}
   - component: {fileID: 104062903}
   - component: {fileID: 104062902}
+  - component: {fileID: 104062904}
   m_Layer: 5
   m_Name: Timer
   m_TagString: Untagged
@@ -686,6 +717,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 104062900}
   m_CullTransparentMesh: 1
+--- !u!114 &104062904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 104062900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 425da5b10b2e0094cafbde5fe55a7abf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 104062902}
+  remainingTime: 120
 --- !u!1 &118063380
 GameObject:
   m_ObjectHideFlags: 0
@@ -1145,7 +1190,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 2
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -1837,7 +1882,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 2
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -3132,7 +3177,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
-  m_ScreenMatchMode: 1
+  m_ScreenMatchMode: 2
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
