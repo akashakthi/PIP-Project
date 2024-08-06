@@ -8,6 +8,7 @@ public class Timer : MonoBehaviour
     [SerializeField] TextMeshProUGUI timerText;
     [SerializeField] float remainingTime;
 
+
     // Update is called once per frame
     void Update()
     {
@@ -25,5 +26,18 @@ public class Timer : MonoBehaviour
         int minutes = Mathf.FloorToInt(remainingTime / 60);
         int seconds = Mathf.FloorToInt(remainingTime % 60);
         timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+    }
+
+    public void PauseGame()
+    {
+      
+            Time.timeScale = 0f; // Menghentikan waktu
+       
+    }
+
+    public void ResumeGame()
+    {
+            Time.timeScale = 1f; // Melanjutkan waktu
+       
     }
 }

@@ -44,4 +44,9 @@ public class LevelManager : MonoBehaviour
     {
         SceneManager.LoadScene("splashScreen");
     }
+    public void Retry()
+    {
+        Scene currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(currentScene.name);
+    }
 }
