@@ -8,7 +8,7 @@ public class ControlDragAndDrop : MonoBehaviour
 {
     public GameObject[] item;
     public GameObject[] itemDrop;
-    public GameObject Questions;
+    public GameObject nextQuestions, currentQuestions;
 
     public int score;
     public int maxScore;
@@ -137,7 +137,8 @@ public class ControlDragAndDrop : MonoBehaviour
 
         if (maxScore <= score)
         {
-            Questions.SetActive(true);
+            nextQuestions.SetActive(true);
+            currentQuestions.SetActive(false);
         }
     }
 
