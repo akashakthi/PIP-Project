@@ -12,11 +12,11 @@ public class LevelManager : MonoBehaviour
     }
     public void levelThree()
     {
-        SceneManager.LoadScene("levelThree");
+        SceneManager.LoadScene("LevelThree");
     }
     public void levelFour()
     {
-        SceneManager.LoadScene("levelFour");
+        SceneManager.LoadScene("LevelFour");
     }
     public void levelFive()
     {
@@ -43,5 +43,11 @@ public class LevelManager : MonoBehaviour
     public void splashScreen()
     {
         SceneManager.LoadScene("splashScreen");
+    }
+    public void Retry()
+    {
+        Scene currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(currentScene.name);
+        Time.timeScale = 1.0f;
     }
 }
