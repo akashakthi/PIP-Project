@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e14eab2df40d11b4b9e74472dc8b539e
+guid: d96c6f0529c186f4fad6830eed212c9a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,139 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kalimat_0
+      name: Kalimat (7)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 261.66666
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4754cb47a43888249aafc1f949f5aeb5
+      internalID: -769220249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kalimat (7)_1
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 95
+        width: 261.66666
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e5d2c5e676f9f48b2a7485c8a5bc67
+      internalID: 1519189139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kalimat (7)_2
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 95
+        width: 261.66666
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2211a8c8f926643b6e922d8c0d3750
+      internalID: -1763136844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kalimat (7)_3
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 95
+        width: 261.66666
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2173f0bf86ffb5347b5c407c0421f030
+      internalID: 1524041353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kalimat (7)_4
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 95
+        width: 261.66666
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4becb933282486a43a434a1793396136
+      internalID: -71942448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kalimat (7)_5
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 95
+        width: 261.66666
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae73091978b044c4ab5885902e08eba6
+      internalID: 1005012029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kalimat (7)_6
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 235
-        height: 87
+        width: 261.66666
+        height: 95
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd9e0cce5a5bf984bb9b4bc14b1268a4
-      internalID: 1843496629
+      spriteID: 48d8512d07f1d3c459a1c41aeb747a9b
+      internalID: -1758895405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kalimat_1
+      name: Kalimat (7)_7
       rect:
         serializedVersion: 2
-        x: 259
+        x: 261
         y: 0
-        width: 241
-        height: 87
+        width: 261.66666
+        height: 95
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a69f8fe30675c7845a772a38cc54b933
-      internalID: 659213311
+      spriteID: 68ee5059b98419742b599997d7f0923c
+      internalID: 895848954
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kalimat_2
+      name: Kalimat (7)_8
       rect:
         serializedVersion: 2
-        x: 518
+        x: 522
         y: 0
-        width: 254
-        height: 87
+        width: 261.66666
+        height: 95
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,50 +305,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 687f56cb7a3af9343926d443c170ac22
-      internalID: -1833317742
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kalimat_3
-      rect:
-        serializedVersion: 2
-        x: 785
-        y: 0
-        width: 251
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3fc712edc91c0564ebd0e22153799bf0
-      internalID: -1704863096
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kalimat_4
-      rect:
-        serializedVersion: 2
-        x: 1052
-        y: 0
-        width: 243
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4b4ba9512b3343040a40bfe0e7fcd461
-      internalID: 893872984
+      spriteID: fc781a3d95b0280439cfda6e6766899c
+      internalID: -669997573
       vertices: []
       indices: 
       edges: []
@@ -238,11 +322,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Kalimat_0: 1843496629
-      Kalimat_1: 659213311
-      Kalimat_2: -1833317742
-      Kalimat_3: -1704863096
-      Kalimat_4: 893872984
+      Kalimat (7)_0: -769220249
+      Kalimat (7)_1: 1519189139
+      Kalimat (7)_10: -485642645
+      Kalimat (7)_11: -432437925
+      Kalimat (7)_2: -1763136844
+      Kalimat (7)_3: 1524041353
+      Kalimat (7)_4: -71942448
+      Kalimat (7)_5: 1005012029
+      Kalimat (7)_6: -1758895405
+      Kalimat (7)_7: 895848954
+      Kalimat (7)_8: -669997573
+      Kalimat (7)_9: -157283648
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
