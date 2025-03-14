@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e14eab2df40d11b4b9e74472dc8b539e
+guid: eb2544247bbbe8d49b4a991437c1091f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,139 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kalimat_0
+      name: Kalimat (3)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 261.66666
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc93d5b6328972344b14145ce362739a
+      internalID: 1963268922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kalimat (3)_1
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 95
+        width: 261.66666
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55759dad94605914eadf1b092383e4c0
+      internalID: -573333460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kalimat (3)_2
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 95
+        width: 261.66666
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed94430b9a94244bb0c404018570f93
+      internalID: -94853013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kalimat (3)_3
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 95
+        width: 261.66666
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c91bdc5b280d54cb6c0824dd319319
+      internalID: 1757936956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kalimat (3)_4
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 95
+        width: 261.66666
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b926553927516047aecdaeca28faf1b
+      internalID: 837295929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kalimat (3)_5
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 95
+        width: 261.66666
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ad7ba9d87d3cd429462f2bd590f347
+      internalID: -2110179400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kalimat (3)_6
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 235
-        height: 87
+        width: 261.66666
+        height: 95
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd9e0cce5a5bf984bb9b4bc14b1268a4
-      internalID: 1843496629
+      spriteID: b8c55ea13df3fd14ab0855034d980aa7
+      internalID: 863534538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kalimat_1
+      name: Kalimat (3)_7
       rect:
         serializedVersion: 2
-        x: 259
+        x: 261
         y: 0
-        width: 241
-        height: 87
+        width: 261.66666
+        height: 95
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,71 +284,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a69f8fe30675c7845a772a38cc54b933
-      internalID: 659213311
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kalimat_2
-      rect:
-        serializedVersion: 2
-        x: 518
-        y: 0
-        width: 254
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 687f56cb7a3af9343926d443c170ac22
-      internalID: -1833317742
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kalimat_3
-      rect:
-        serializedVersion: 2
-        x: 785
-        y: 0
-        width: 251
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3fc712edc91c0564ebd0e22153799bf0
-      internalID: -1704863096
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kalimat_4
-      rect:
-        serializedVersion: 2
-        x: 1052
-        y: 0
-        width: 243
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4b4ba9512b3343040a40bfe0e7fcd461
-      internalID: 893872984
+      spriteID: a401989cae67cb6489dd94afef8c18b9
+      internalID: 500718254
       vertices: []
       indices: 
       edges: []
@@ -238,11 +301,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Kalimat_0: 1843496629
-      Kalimat_1: 659213311
-      Kalimat_2: -1833317742
-      Kalimat_3: -1704863096
-      Kalimat_4: 893872984
+      Kalimat (3)_0: 1963268922
+      Kalimat (3)_1: -573333460
+      Kalimat (3)_10: 166027164
+      Kalimat (3)_11: -2020892682
+      Kalimat (3)_2: -94853013
+      Kalimat (3)_3: 1757936956
+      Kalimat (3)_4: 837295929
+      Kalimat (3)_5: -2110179400
+      Kalimat (3)_6: 863534538
+      Kalimat (3)_7: 500718254
+      Kalimat (3)_8: -1489048673
+      Kalimat (3)_9: 109739809
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
