@@ -20,7 +20,7 @@ public class LevelManager : MonoBehaviour
     }
     public void levelFive()
     {
-        SceneManager.LoadScene("LevelFive");
+        SceneManager.LoadScene("LevelFive Part 1");
     }
     public void levelSix()
     {

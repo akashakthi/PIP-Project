@@ -127,11 +127,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 95
-        width: 261.66666
-        height: 95
+        y: 103
+        width: 237
+        height: 87
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -147,12 +147,12 @@ TextureImporter:
       name: Kalimat (5)_1
       rect:
         serializedVersion: 2
-        x: 261
-        y: 95
-        width: 261.66666
-        height: 95
+        x: 267
+        y: 103
+        width: 237
+        height: 87
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -168,12 +168,12 @@ TextureImporter:
       name: Kalimat (5)_2
       rect:
         serializedVersion: 2
-        x: 522
-        y: 95
-        width: 261.66666
-        height: 95
+        x: 532
+        y: 103
+        width: 237
+        height: 87
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -189,12 +189,12 @@ TextureImporter:
       name: Kalimat (5)_3
       rect:
         serializedVersion: 2
-        x: 783
-        y: 95
-        width: 261.66666
-        height: 95
+        x: 797
+        y: 103
+        width: 237
+        height: 87
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -210,12 +210,12 @@ TextureImporter:
       name: Kalimat (5)_4
       rect:
         serializedVersion: 2
-        x: 1044
-        y: 95
-        width: 261.66666
-        height: 95
+        x: 1062
+        y: 103
+        width: 237
+        height: 87
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -231,12 +231,12 @@ TextureImporter:
       name: Kalimat (5)_5
       rect:
         serializedVersion: 2
-        x: 1305
-        y: 95
-        width: 261.66666
-        height: 95
+        x: 1333
+        y: 103
+        width: 237
+        height: 87
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -254,10 +254,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 261.66666
-        height: 95
+        width: 237
+        height: 87
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -273,12 +273,12 @@ TextureImporter:
       name: Kalimat (5)_7
       rect:
         serializedVersion: 2
-        x: 261
+        x: 267
         y: 0
-        width: 261.66666
-        height: 95
+        width: 237
+        height: 87
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -303,16 +303,12 @@ TextureImporter:
     nameFileIdTable:
       Kalimat (5)_0: 851534767
       Kalimat (5)_1: 939794366
-      Kalimat (5)_10: -1433866955
-      Kalimat (5)_11: 1715185565
       Kalimat (5)_2: -2008067694
       Kalimat (5)_3: -1928839930
       Kalimat (5)_4: 1981837376
       Kalimat (5)_5: -174160603
       Kalimat (5)_6: 1585627537
       Kalimat (5)_7: 1124065009
-      Kalimat (5)_8: 1723905819
-      Kalimat (5)_9: -1760407554
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

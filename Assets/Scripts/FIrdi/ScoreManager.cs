@@ -7,6 +7,8 @@ public class ScoreManager : MonoBehaviour
 {
     public GameObject[] Line;
     public string SceneName;
+    public bool part2;
+    public GameObject congrats;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +24,14 @@ public class ScoreManager : MonoBehaviour
             Line[2].activeSelf == true &&
             Line[3].activeSelf == true)
         {
-            SceneManager.LoadScene(SceneName);
+            if (!part2)
+            {
+                SceneManager.LoadScene(SceneName);
+            }
+            else
+            {
+                congrats.SetActive(true);
+            }
         }
     }
 }
